@@ -1,0 +1,42 @@
+.top-bar {
+    background: linear-gradient(75deg, rgb(214, 180, 247), rgb(173, 203, 231));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 68px;
+}
+.top-bar h1 {
+    font-size: 18px;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: var(--dark);
+}
+.total-budget-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark);
+}
+.total-budget-section h2 {
+    color: white;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 58px;
+}
+.total-budget-section .green {
+    color: var(--green)
+}
+.total-budget-section .red {
+    color: var(--red)
+}
+.add-item-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-item-container {
+    width: 680px;
+}

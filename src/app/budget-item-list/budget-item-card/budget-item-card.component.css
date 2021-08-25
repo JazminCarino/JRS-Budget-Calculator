@@ -1,0 +1,80 @@
+.root {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.budget-item {
+  display: flex;
+  width: 100%;
+  background-color: var(--light-grey);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.budget-item:hover {
+  background-color: #eaeaea;
+}
+
+.description {
+  display: flex;
+  flex-grow: 1;
+  font-size: 18px;
+  margin-left: 5px;
+  align-items: center;
+}
+
+.amount {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.income p{
+    color:var(--green);
+}
+
+.income .amount{
+    background-color:var(--light-green);
+}
+
+
+.expenses p{
+    color: var(--red);
+}
+
+
+.expenses .amount{
+    background-color:var(--light-red);
+}
+
+.x-icon-button {
+    background: var(--dark);
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    right: -17px;
+    top: -17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--red);
+    cursor: pointer;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+   }
+
+   .x-icon-button:hover{
+       transform: scale(1.2);
+       
+   }
+
+   .root:hover .x-icon-button{
+       opacity:1;
+       transform: scale(1);
+
+   }

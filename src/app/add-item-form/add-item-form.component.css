@@ -1,0 +1,23 @@
+
+.field-body{
+    display: flex;
+}
+
+.input {
+    border-color: transparent;
+    background-color: var(--light-grey);
+
+
+}
+
+.input:active {
+    
+    border-radius: 2px;
+}
+
+.button {
+    background-color: rgb(177, 70, 240);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
